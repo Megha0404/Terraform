@@ -27,9 +27,11 @@ variable "tags" {
 variable "frontend_subnet_name" {
   type        = string
   default     = "frontend"
+  description = "Name of the frontend subnet"
 }
 
 variable "backend_subnet_name" {
   type        = string
   default     = "backend"
+  description = "value of backend subnet name"
 }
