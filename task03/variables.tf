@@ -25,13 +25,13 @@ variable "tags" {
 }
 
 variable "frontend_subnet_name" {
-  type    = string
+  type        = string
   description = "For frontend"
-  default = "frontend"
+  default     = "frontend"
 }
 
 variable "backend_subnet_name" {
-  type    = string
-  description ="For backend"
-  default = "backend"
+  type        = string
+  description = "For backend"
+  default     = "backend"
 }
